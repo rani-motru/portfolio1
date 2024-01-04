@@ -299,3 +299,15 @@ h2:after {
 .social p{
     font-size: 50%;
 }
+
+
+.footer-end {
+    font-size: 0.7rem;
+    height: 20vh;
+    /* background-size: cover;
+    background-position: top; */
+    position: relative;
+    text-align: center;
+    color: #0c0b0b;
+    padding-top: 2rem;
+  }
