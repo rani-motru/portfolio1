@@ -28,7 +28,8 @@ h2{
 /*======================================HEADER==================================================================*/
 
 .header-main{
-    background-color: #270340;
+    /* background-color: #270340; */
+    background-color: hsl(197, 56%, 43%);;
     /* background-image:3398607.jpg; */
     background-position: center;
     background-repeat: no-repeat;
@@ -45,7 +46,7 @@ h2{
     margin-right: 3%;
     padding-left: 3%;
     font-size: 150%;
-    color: white;
+    color:white;
     text-decoration: none;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
@@ -60,7 +61,7 @@ h2{
     float: right;
     list-style: none;   
     margin-top: 55px;
-    margin-left: 9%;
+    margin-left: 19%;
     
 }
 
@@ -230,6 +231,30 @@ h2:after {
     color: #646464;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for the buttons */
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff; /* Green background color */
+    color: #5785cf; /* White text color */
+    border: 1px solid #ffffff; /* Green border color */
+    border-radius: 7px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the buttons */
+.btn:hover {
+    background-color: #5785cf;
+    color:#fff /* Darker green on hover */
+}
 /*=============================================================PUBLICATION=====================================================================*/
 
 .work{
